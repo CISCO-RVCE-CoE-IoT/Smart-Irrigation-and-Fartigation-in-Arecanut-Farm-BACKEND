@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Backend
 on:
   push:
     branches:
-      - backend
+      - main
 
 jobs:
   build-and-push:
